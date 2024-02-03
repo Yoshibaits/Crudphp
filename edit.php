@@ -86,7 +86,7 @@ else{
 </head>
 <body>
     <div class="container">
-        <h2>New Client</h2>
+        <h2>Edit Client</h2>
 
         <?php
         if (!empty($errorMessage))
@@ -145,7 +145,7 @@ else{
             ?>
             <div class="row mb-3">
                 <div class="offset-sm-3 col-sm-3 d-grid">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
                 </div>
                 <div class="col-sm-3 d-grid">
                     <a class="btn btn-outline-primary" href="/myshop/index.php" role="button">Cancel</a>
